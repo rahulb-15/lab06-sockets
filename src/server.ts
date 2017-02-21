@@ -1,7 +1,7 @@
 import net = require('net');//import socket module
 
 // define address interface
-interface Address { port: number; family: string; address: string; };
+interface Address { port: number; family: string; address: string;};
 
 // create socket server
 let server:net.Server = net.createServer();
